@@ -1,0 +1,18 @@
+{
+  "name": "naemon",
+  "version": "1.0.0",
+  "description":"a node.js daemon creator for *nix daemons",
+  "main":"index.js",
+  "dependencies":{
+
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/synder/naemon.git"
+  },
+  "keywords": [
+    "daemon",
+    "guard",
+    "process"
+  ]
+}
