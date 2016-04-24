@@ -3,7 +3,7 @@
     var Naemon = require('naemon');
     var daemon = new Naemon();
 
-    var scriptPath = path.join(DIR_NAME, './lib/agent.js'); //child script path
+    var scriptPath = path.join(__dirname, './lib/agent.js'); //child script path
     var args = [1,2,3]; //args will be send to child process
 
     daemon.start(scriptPath, args); //start Child with damon
