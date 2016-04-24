@@ -1,6 +1,6 @@
 {
   "name": "naemon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description":"a node.js daemon creator for *nix daemons",
   "main":"index.js",
   "dependencies":{

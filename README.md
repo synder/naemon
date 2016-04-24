@@ -8,7 +8,7 @@
 
     daemon.start(scriptPath, args); //start Child with damon
 
-    //if child process send message , this function will be callback
+    //when child process send message , this function will be callback
     daemon.receive(scriptPath, function(message){
         console.log(message);
     });
